@@ -7,23 +7,36 @@ html{
 }
 
 .tile{
-    /* background-color: lightcoral; */
 }
 
 .weekday{
-    background-color:yellow;
+    background-color: rgba(245, 223, 113, 1);
 }
 
 .weekend{
-    background-color: lightblue;;
+    background-color: rgba(136, 152, 206, 1);
 }
 
 .day{
     margin:5px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 .hour{
-    background-color: blueviolet;
+    background-color: rgba(132, 188, 213, 1);
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 5px;
 }
 
+
+.button{
+    width: 22px;
+    height: 22px;
+    font-size: 11px;
+    margin: 2px;
+    background-color: rgba(194, 180, 234, 1);
+    border: none;
+    padding: 2px;
+}
