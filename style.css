@@ -3,6 +3,11 @@
 }
 
 
+
+.tile{
+    //background-color: lightcoral;
+}
+
 .weekday{
     background-color:yellow;
 }
@@ -15,4 +20,5 @@
     margin:5px;
     margin-top: 20px;
 }
+
 
