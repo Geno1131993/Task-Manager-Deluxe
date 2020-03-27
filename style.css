@@ -2,10 +2,12 @@
     box-sizing: border-box;
 }
 
-
+html{
+    overflow-x: scroll;
+}
 
 .tile{
-    //background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 
 .weekday{
@@ -21,4 +23,7 @@
     margin-top: 20px;
 }
 
+.hour{
+    background-color: blueviolet;
+}
 
