@@ -6,6 +6,26 @@ html{
     overflow-x: scroll;
 }
 
+
+#header{
+    background-color: rgba(90, 151, 206, 1);
+    width: 100%;
+
+}
+
+#logo{
+    font-size: 50px;
+}
+
+
+#clear_all{
+    font-size: 20px;
+    background-color: rgba(224, 225, 135, 1);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
 .tile{
 }
 
@@ -39,4 +59,13 @@ html{
     background-color: rgba(194, 180, 234, 1);
     border: none;
     padding: 2px;
+}
+
+
+.button:hover{
+    background-color: rgba(177, 223, 243, 1);
+}
+
+.button:focus{
+    background-color: rgba(125, 97, 186, 1);
 }
