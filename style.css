@@ -9,8 +9,6 @@ html{
 
 #header{
     background-color: rgba(90, 151, 206, 1);
-    width: 100%;
-
 }
 
 #logo{
@@ -68,4 +66,22 @@ html{
 
 .button:focus{
     background-color: rgba(125, 97, 186, 1);
+}
+
+
+.clear_button{
+    background-color: rgba(255, 122, 66, 1);
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.clear_button:hover{
+    background-color: rgba(232, 163, 178, 1);
+}
+
+.clear_button:focus{
+    background-color: rgba(224, 73, 87, 1);
 }
